@@ -1,6 +1,5 @@
-# TODO:
-# - Summary, desc
 Summary:	A Linux tool for doing automated ISDN voice calls
+Summary(pl):	Linuksowe narzêdzie do automatycznego wykonywania po³±czeñ g³osowych ISDN
 Name:		ivcall
 Version:	0.4
 Release:	0.1
@@ -16,10 +15,19 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Ivcall is a small utility which may be used to make automated
 telephone calls with your isdn4linux supported ISDN card. Outgoing
-calls are supported as well as incoming calls. The audio data recieved
+calls are supported as well as incoming calls. The audio data received
 from the peer is written to STDOUT, audio data read from STDIN is send
-to the peer. The audio data is in raw 8 bit uLaw 8 KHz format, without
+to the peer. The audio data is in raw 8 bit uLaw 8 kHz format, without
 any headers.
+
+%description -l pl
+ivcall to ma³e narzêdzie do automatycznego wykonywania po³±czeñ
+telefonicznych przy u¿yciu kart ISDN obs³ugiwanych przez isdn4linux.
+Obs³ugiwane s± po³±czenia wychodz±ce jak i przychodz±ce. Dane g³osowe
+odbierane od drugiej strony s± wysy³ane na standardowe wyj¶cie, a dane
+g³osowe odczytywane ze standardowego wyj¶cia s± wysy³ane do drugiej
+strony. Dane d¼wiêkowe s± w formacie surowym 8-bitowym uLaw 8kHz, bez
+¿adnych nag³ówków.
 
 %prep
 %setup -q
