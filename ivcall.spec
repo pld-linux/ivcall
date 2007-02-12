@@ -1,5 +1,5 @@
 Summary:	A Linux tool for doing automated ISDN voice calls
-Summary(pl):	Linuksowe narzêdzie do automatycznego wykonywania po³±czeñ g³osowych ISDN
+Summary(pl.UTF-8):   Linuksowe narzÄ™dzie do automatycznego wykonywania poÅ‚Ä…czeÅ„ gÅ‚osowych ISDN
 Name:		ivcall
 Version:	0.4
 Release:	0.1
@@ -20,14 +20,14 @@ from the peer is written to STDOUT, audio data read from STDIN is send
 to the peer. The audio data is in raw 8 bit uLaw 8 kHz format, without
 any headers.
 
-%description -l pl
-ivcall to ma³e narzêdzie do automatycznego wykonywania po³±czeñ
-telefonicznych przy u¿yciu kart ISDN obs³ugiwanych przez isdn4linux.
-Obs³ugiwane s± po³±czenia wychodz±ce jak i przychodz±ce. Dane g³osowe
-odbierane od drugiej strony s± wysy³ane na standardowe wyj¶cie, a dane
-g³osowe odczytywane ze standardowego wyj¶cia s± wysy³ane do drugiej
-strony. Dane d¼wiêkowe s± w formacie surowym 8-bitowym uLaw 8kHz, bez
-¿adnych nag³ówków.
+%description -l pl.UTF-8
+ivcall to maÅ‚e narzÄ™dzie do automatycznego wykonywania poÅ‚Ä…czeÅ„
+telefonicznych przy uÅ¼yciu kart ISDN obsÅ‚ugiwanych przez isdn4linux.
+ObsÅ‚ugiwane sÄ… poÅ‚Ä…czenia wychodzÄ…ce jak i przychodzÄ…ce. Dane gÅ‚osowe
+odbierane od drugiej strony sÄ… wysyÅ‚ane na standardowe wyjÅ›cie, a dane
+gÅ‚osowe odczytywane ze standardowego wyjÅ›cia sÄ… wysyÅ‚ane do drugiej
+strony. Dane dÅºwiÄ™kowe sÄ… w formacie surowym 8-bitowym uLaw 8kHz, bez
+Å¼adnych nagÅ‚Ã³wkÃ³w.
 
 %prep
 %setup -q
