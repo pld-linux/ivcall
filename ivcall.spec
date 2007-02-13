@@ -1,5 +1,5 @@
 Summary:	A Linux tool for doing automated ISDN voice calls
-Summary(pl.UTF-8):   Linuksowe narzędzie do automatycznego wykonywania połączeń głosowych ISDN
+Summary(pl.UTF-8):	Linuksowe narzędzie do automatycznego wykonywania połączeń głosowych ISDN
 Name:		ivcall
 Version:	0.4
 Release:	0.1
